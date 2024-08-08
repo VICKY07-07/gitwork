@@ -1,0 +1,7 @@
+Declare
+i number;
+begin
+select id into i from t1 where id =111;
+dbms_output.put_line(i);
+end;
+/
